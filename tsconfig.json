@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "rootDir": ".",
+    "rootDir": "./src",
     "outDir": ".",
     "sourceMap": true,
     "declaration": true,
@@ -13,6 +13,6 @@
     "module": "commonjs",
     "target": "ES2015"
   },
-  "include": ["./**/*.ts"],
+  "include": ["./src/**/*.ts"],
   "exclude": ["./node_modules/**/*.ts"]
 }

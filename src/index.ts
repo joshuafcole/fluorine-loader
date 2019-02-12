@@ -1,7 +1,7 @@
 import {getOptions} from "loader-utils";
 import {performance} from "perf_hooks";
 
-import {transform} from "fluorine";
+import {transform} from "@joshuafcole/fluorine";
 import { RawSourceMap } from "source-map";
 import sorcery = require("source-map");
 import { loader } from "webpack";
