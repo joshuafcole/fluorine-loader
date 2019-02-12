@@ -12,7 +12,7 @@
   "dependencies": {
     "loader-utils": "^1.2.3",
     "source-map": "^0.7.3",
-    "@joshuafcole/fluorine": "0.x"
+    "@joshuafcole/fluorine": "^0.0.4-rc1"
   },
   "keywords": [
     "webpack",
