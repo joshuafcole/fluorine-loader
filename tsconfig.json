@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": ".",
+    "sourceMap": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+
+    "lib": ["dom", "ES2015"],
+    "module": "commonjs",
+    "target": "ES2015"
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["./node_modules/**/*.ts"]
+}
