@@ -1,6 +1,6 @@
 {
   "name": "fluorine-loader",
-  "version": "0.0.2-rc4",
+  "version": "0.0.2-rc5",
   "description": "A webpack loader to compile fluorine specializations and catalyst handlers.",
   "scripts": {
     "build": "tsc",
@@ -11,7 +11,7 @@
   "author": "Joshua Cole",
   "license": "MIT",
   "dependencies": {
-    "@joshuafcole/fluorine": "0.0.4-rc7",
+    "@joshuafcole/fluorine": "0.0.4-rc8",
     "loader-utils": "^1.2.3",
     "source-map": "^0.7.3"
   },
