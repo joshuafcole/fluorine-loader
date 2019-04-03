@@ -1,6 +1,6 @@
 {
   "name": "fluorine-loader",
-  "version": "0.0.2-rc6",
+  "version": "0.0.2-rc7",
   "description": "A webpack loader to compile fluorine specializations and catalyst handlers.",
   "scripts": {
     "build": "tsc",
@@ -11,7 +11,11 @@
   "author": "Joshua Cole",
   "license": "MIT",
   "dependencies": {
-    "@joshuafcole/fluorine": "0.0.4-rc9",
+    "efreet": "^0.3.0",
+    "acorn": "^6.1.0",
+    "acorn-walk": "^6.1.1",
+    "magic-string": "https://github.com/joshuafcole/magic-string/releases/download/v0.25.3-include-sourcemaps/magic-string-0.25.3-include-sourcemaps.tgz",
+    "md5-jkmyers": "0.0.1",
     "loader-utils": "^1.2.3",
     "source-map": "^0.7.3"
   },
@@ -23,6 +27,8 @@
     "catalyst"
   ],
   "devDependencies": {
+    "@types/acorn": "^4.0.4",
+    "@types/estree": "0.0.39",
     "@types/loader-utils": "^1.1.3",
     "@types/source-map": "^0.5.7",
     "typescript": "^3.3.3",
